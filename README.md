@@ -9,7 +9,6 @@
 3. [Systems Engineering & SysML Models](#sysml-models--architecture)
 4. [Hardware & Software Implementation](#hardware--software-implementation)
 5. [Mechanical Design & 3D Parts](#mechanical-design--3d-parts)
-6. [Team Responsibilities](#team-responsibilities)
 7. [Project Resources](#project-resources)
    
 ---
@@ -20,7 +19,7 @@ This repository documents the complete development lifecycle of an autonomous li
 ---
 
 ##  Repository Architecture
-Our repository is structured chronologically to reflect the iterative MBSE design process, preserving historical team contributions while highlighting final production deliverables:
+This repository is structured chronologically to reflect the iterative MBSE design process, preserving historical team contributions while highlighting final production deliverables:
 
 * `/00_Project_Management/`: Contains official course lectures, reference documentation, and component datasheets.
 * `/SysML_Diagrams/`: Centralized folder housing all formal system models (Requirements, Use Case, Block Definition, Internal Block, Activity, Sequence, and Package diagrams).
@@ -33,7 +32,7 @@ Our repository is structured chronologically to reflect the iterative MBSE desig
 ---
 
 ##  SysML Models & Architecture
-Our models adhere strictly to standard systems engineering criteria to guarantee complete functional verification:
+The models adhere strictly to standard systems engineering criteria to guarantee complete functional verification:
 * **Requirements Model:** Establishes parent-child hierarchical tracking from high-level system goals (`REQ-SYS-001`) down to specific functional behaviors (`REQ-FUN-002` through `004`).
 * **Use Case Diagram:** Maps system boundaries, actors (`Operator`, `Environment / Track`), and core functional use cases (line tracking, obstacle detection, V-dogleg detour, and 180° black zone maneuvers).
 * **Structural Models (BDD & IBD):** Defines system composition and internal power/data flows—explicitly separating 9V power lines, 5V regulation rails, PWM motor controls, and digital sensor inputs.
