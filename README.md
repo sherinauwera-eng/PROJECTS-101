@@ -58,14 +58,7 @@ The physical platform features a rigid chassis integrated with custom-engineered
 
 ---
 
-##  Team Responsibilities
-| Task / Deliverable | Phase 1: Initial Model | Phase 2: Refined Prototype |
-| :--- | :--- | :--- |
-| **Requirements** | Viktoriia | Viktoriia |
-| **System Architecture** | Billy | Billy |
-| **Activity Flow** | Teddy | Teddy |
-| **Dynamic Sequences** | Sherina | Sherina |
-| **Simulation & Code** | N/A | All Members |
+
 
 ---
 
